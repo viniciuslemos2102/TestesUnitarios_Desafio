@@ -15,7 +15,7 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RemoverNumerosNegativos(lista); 
 
         // Assert
-        Assert.Equal(resultadoEsperado, resultado);
+        Assert.Equal(resultadoEsperado, resultado); 
     }
 
     [Fact]

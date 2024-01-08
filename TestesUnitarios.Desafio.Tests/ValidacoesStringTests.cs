@@ -20,7 +20,7 @@ public class ValidacoesStringTests
         Assert.Equal(resultadoEsperado, resultado);
     }
 
-    [Fact]
+    [Fact] 
     public void DeveContemAPalavraQualquerNoTexto()
     {
         // Arrange
